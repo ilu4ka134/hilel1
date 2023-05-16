@@ -27,10 +27,5 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
- background-color: #b11515;
-}
-
-input[type="radio"] {
-margin: 5px;
-padding: 2px;
-}
+    background-color: #b11515;
+   }   

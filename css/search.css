@@ -1,0 +1,53 @@
+form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="datetime-local"],
+  input[type="number"],
+  input[type="color"],
+  input[type="checkbox"],
+  input[type="radio"],
+  select {
+    margin-bottom: 5px;
+  }
+  
+  input[type="checkbox"] + label,
+  input[type="radio"] + label {
+    margin-left: 5px;
+  }
+  
+  input[type="button"],
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

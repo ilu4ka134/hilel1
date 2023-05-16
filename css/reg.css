@@ -1,3 +1,7 @@
+*{
+    align-items: center;
+    justify-content: center;
+}
 form {
     width: 300px;
   }

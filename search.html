@@ -8,6 +8,90 @@
     <link rel="stylesheet" href="css/search.css">
 </head>
 <body>
-    
+    <h1>Поиск</h1>
+    <form action="https://fom.in.ua/echo" method="POST">
+    <label for="datetime">Год выпуска, от:
+        <input type="datetime-local" name="datetime" id="datetime-local">
+    </label>
+        <br>
+        <label for="datetime">Год выпуска, до:
+            <input type="datetime-local" name="datetime" id="datetime">
+        </label>
+            <br>
+            <label for="Price">Цена от:
+                <input type="number" name="number" id="price" min="0" max="10000000">
+            </label>
+                <br>
+                <label for="Price">Цена до:
+                    <input type="number" name="number" id="number" min="0" max="10000000">
+                </label>
+                    <br>
+                    <label for="Color">Цвет:
+                        <input type="color" name="color" id="color">
+                    </label>
+                        <br>
+                        <label for="body type"> Тип кузова:
+                            <input type="checkbox" name="checkbox" id="Sedan">Седан
+                            <input type="checkbox" name="checkbox" id="Pikap">Пикап
+                            <input type="checkbox" name="checkbox" id="Kupe">Купе
+                            <input type="checkbox" name="checkbox" id="Chetcbek">Хэтчбек
+                            <input type="checkbox" name="checkbox" id="Universal">Универсал
+                        </label>
+                            <br>
+                            <label for="State">Состояние:
+                                <input type="radio" name="State" id="State 1">Битая
+                                <input type="radio" name="State" id="State 2">В кредите
+                                <input type="radio" name="State" id="State 3">Конфискованная
+                                <input type="radio" name="State" id="State 4">Нерастаможенная
+                            </label>
+                                <br>
+                                <label for="Gearbox type"> Тип коробки передач:
+                                    <input type="checkbox" name="checkbox" id="Gearbox type 1"> МКПП (Механическая)
+                                    <input type="checkbox" name="checkbox" id="Gearbox type 2"> АКПП (Автоматическая)
+                                    <input type="checkbox" name="checkbox" id="Gearbox type 3"> РКПП (Роботизированная)
+                                </label>
+                                  <br>
+                                  <select name="select" id="select 1"> Страна:
+                                    <option value="v1">Германия</option>
+                                    <option value="v2">Япония</option>
+                                    <option value="v3">Франция</option>
+                                    <option value="v4">Америка</option>
+                                    <option value="v5">Украина</option>
+                                    <option value="v6">Италия</option>
+                                    <option value="v7">Китай</option>
+                                    <option value="v8">Чехия</option>
+                                    <option value="v9">Великобритания</option>
+                                    <option value="v10">Швеция</option>
+                                  </select> 
+                                  <br>
+                                  <select name="select" id="select 2"> Страна:
+                                    <option value="v1">Mercedes-Benz</option>
+                                    <option value="v2">Volvo</option>
+                                    <option value="v3">Audi</option>
+                                    <option value="v4">BMW</option>
+                                    <option value="v5">Reno</option>
+                                    <option value="v6">Mazda</option>
+                                    <option value="v7">Tesla</option>
+                                    <option value="v8">Ford</option>
+                                    <option value="v9">Skoda</option>
+                                    <option value="v10">Volkswagen</option>
+                                  </select> 
+                                  <br>
+                                 <label for="Fuel" id="Fuel">Тип топлива:
+                                     <input type="checkbox" name="Fuel" id="Fuel 1"> Бензин
+                                     <input type="checkbox" name="Fuel" id="Fuel 2"> Дизель
+                                     <input type="checkbox" name="Fuel" id="Fuel 3"> Газ
+                                 </label>
+                                 <br>
+                                 <label for="Comfort" id="Comfort">Комфорт:
+                                    <input type="checkbox" name="Comfort" id="Comfort 1"> Люк
+                                    <input type="checkbox" name="Comfort" id="Comfort 2"> Кожаный салон
+                                </label>
+                                <br>
+                                <input type="button" value="send">
+                                <a href="log.html">Войти в аккаунт</a>
+                                <a href="reg.html">Регистрация</a>
+                                    
+    </form>
 </body>
 </html>
