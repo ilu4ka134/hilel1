@@ -1,0 +1,36 @@
+form{
+  width: 300px;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    display: block;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    background-color: #f70505;
+}
+
+input[type="submit"]:hover {
+ background-color: #b11515;
+}
+
+input[type="radio"] {
+margin: 5px;
+padding: 2px;
+}
