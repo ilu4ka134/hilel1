@@ -1,3 +1,7 @@
+* {
+  font-family: "Roboto";
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -95,7 +99,7 @@ body {
   display: flex;
 }
 .projects .all-cards .card-content {
-  padding-left: 10px;
+  padding-left: 20px;
 }
 .projects .all-cards p {
   font-size: 400;
@@ -116,16 +120,29 @@ body {
   text-align: center;
   background: #eeeff1;
 }
-.last h2 {
-  font-size: 500;
-  line-height: 32;
-  font-weight: 38;
-  color: #000;
-}
 .last p {
-  width: 540px;
+  width: 540;
   font-size: 400;
   line-height: 16;
   font-weight: 26;
   color: #727272;
+}
+
+.footer {
+  background: #34547a;
+}
+.footer h3 {
+  padding-bottom: 20px;
+  padding-top: 50px;
+  font-size: 500;
+  line-height: 21;
+  font-weight: 25;
+  color: #ffffff;
+}
+.footer p {
+  padding-top: 20px;
+  font-size: 400;
+  line-height: 13;
+  font-weight: 21;
+  color: #ffffff;
 }/*# sourceMappingURL=common.css.map */

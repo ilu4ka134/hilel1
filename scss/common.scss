@@ -5,6 +5,9 @@
   color: $clr;
 }
 
+* {
+  font-family: "Roboto";
+}
 body {
   padding: 0;
   margin: 0;
@@ -88,7 +91,7 @@ body {
       display: flex;
     }
     .card-content {
-      padding-left: 10px;
+      padding-left: 20px;
     }
     p {
       @include fonts(400, 16, 26, #ffffff);
@@ -106,10 +109,23 @@ body {
   background: #eeeff1;
 
   h2 {
-    @include fonts(500, , , #000);
   }
 
   p {
-    @include fonts(400, , , #727272);
+    width: 540;
+    @include fonts(400, 16, 26, #727272);
+  }
+}
+
+.footer {
+  background: #34547a;
+  h3 {
+    padding-bottom: 20px;
+    padding-top: 50px;
+    @include fonts(500, 21, 25, #ffffff);
+  }
+  p {
+    padding-top: 20px;
+    @include fonts(400, 13, 21, #ffffff);
   }
 }
