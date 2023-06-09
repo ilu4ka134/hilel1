@@ -1,0 +1,131 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.first-section {
+  background: #eeeff1;
+}
+.first-section div {
+  padding-top: 79px;
+}
+.first-section .homepage {
+  font-size: 500;
+  line-height: 26px;
+  font-weight: 16px;
+  color: #34547a;
+  text-decoration: none;
+}
+.first-section a {
+  margin-right: 42px;
+  text-decoration: none;
+  font-size: 400;
+  line-height: 26px;
+  font-weight: 16px;
+  color: #000;
+}
+
+.ft-section {
+  background: #eeeff1;
+  padding-bottom: 141px;
+  padding-top: 151px;
+}
+.ft-section h1 {
+  padding-bottom: 60px;
+  font-size: 500;
+  line-height: 48px;
+  font-weight: 79px;
+  color: #000;
+  width: 540px;
+}
+.ft-section p {
+  padding-top: 60px;
+  padding-bottom: 65px;
+  font-size: 400;
+  line-height: 16px;
+  font-weight: 26px;
+  color: #727272;
+  width: 540px;
+}
+.ft-section a {
+  font-size: 400;
+  line-height: 16;
+  font-weight: 26;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  width: 255px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #34547a;
+}
+
+.about {
+  background: #ffffff;
+  text-align: center;
+}
+.about h2 {
+  padding-top: 112px;
+  padding-bottom: 50px;
+}
+.about p {
+  padding-bottom: 100px;
+  width: 540px;
+  margin: 0 auto;
+}
+
+.projects {
+  background: #34547a;
+}
+.projects .all-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.projects .all-cards .card {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+}
+.projects .all-cards .card-content {
+  padding-left: 10px;
+}
+.projects .all-cards p {
+  font-size: 400;
+  line-height: 16;
+  font-weight: 26;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.projects .all-cards h3 {
+  font-size: 500;
+  line-height: 16;
+  font-weight: 26;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.last {
+  text-align: center;
+  background: #eeeff1;
+}
+.last h2 {
+  font-size: 500;
+  line-height: 32;
+  font-weight: 38;
+  color: #000;
+}
+.last p {
+  width: 540px;
+  font-size: 400;
+  line-height: 16;
+  font-weight: 26;
+  color: #727272;
+}/*# sourceMappingURL=common.css.map */
