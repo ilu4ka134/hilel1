@@ -41,13 +41,11 @@ body {
 
 .ft-section {
   background: #eeeff1;
-
   height: 700px;
   h1 {
     @include fonts(48px, 79px, 500, #000);
     width: 540px;
   }
-
   p {
     padding-bottom: 65px;
     @include fonts(16px, 26px, 400, #727272);
