@@ -16,52 +16,52 @@ body {
 
 .first-section {
   background: #eeeff1;
+  height: 700px;
 }
 .first-section div {
   padding-top: 79px;
 }
 .first-section .homepage {
-  font-size: 500;
+  padding-bottom: 151px;
+  font-size: 16px;
   line-height: 26px;
-  font-weight: 16px;
+  font-weight: 500;
   color: #34547a;
   text-decoration: none;
 }
 .first-section a {
+  padding-bottom: 151px;
   margin-right: 42px;
   text-decoration: none;
-  font-size: 400;
+  font-size: 16px;
   line-height: 26px;
-  font-weight: 16px;
+  font-weight: 400;
   color: #000;
 }
 
 .ft-section {
   background: #eeeff1;
-  padding-bottom: 141px;
-  padding-top: 151px;
+  height: 700px;
 }
 .ft-section h1 {
-  padding-bottom: 60px;
-  font-size: 500;
-  line-height: 48px;
-  font-weight: 79px;
+  font-size: 48px;
+  line-height: 79px;
+  font-weight: 500;
   color: #000;
   width: 540px;
 }
 .ft-section p {
-  padding-top: 60px;
   padding-bottom: 65px;
-  font-size: 400;
-  line-height: 16px;
-  font-weight: 26px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
   color: #727272;
   width: 540px;
 }
 .ft-section a {
-  font-size: 400;
-  line-height: 16;
-  font-weight: 26;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
   color: #ffffff;
   text-decoration: none;
   display: block;
@@ -77,10 +77,18 @@ body {
   text-align: center;
 }
 .about h2 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 500;
+  color: #000;
   padding-top: 112px;
   padding-bottom: 50px;
 }
 .about p {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #727272;
   padding-bottom: 100px;
   width: 540px;
   margin: 0 auto;
@@ -88,6 +96,11 @@ body {
 
 .projects {
   background: #34547a;
+  max-height: 250px;
+}
+.projects img {
+  height: 50px;
+  padding-bottom: 100px;
 }
 .projects .all-cards {
   display: flex;
@@ -102,47 +115,62 @@ body {
   padding-left: 20px;
 }
 .projects .all-cards p {
-  font-size: 400;
-  line-height: 16;
-  font-weight: 26;
+  margin: 0;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
   color: #ffffff;
-  margin-bottom: 0;
 }
 .projects .all-cards h3 {
-  font-size: 500;
-  line-height: 16;
-  font-weight: 26;
+  margin: 0;
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 400;
   color: #ffffff;
-  margin-top: 0;
 }
 
 .last {
   text-align: center;
   background: #eeeff1;
 }
+.last h2 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 500;
+  color: #000;
+  margin-top: 0;
+  padding-top: 120px;
+}
 .last p {
-  width: 540;
-  font-size: 400;
-  line-height: 16;
-  font-weight: 26;
+  max-width: 540px;
+  margin: 0 auto;
+  padding-bottom: 57px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
   color: #727272;
+}
+.last iframe {
+  padding-bottom: 100px;
 }
 
 .footer {
   background: #34547a;
 }
 .footer h3 {
+  margin: 0;
   padding-bottom: 20px;
   padding-top: 50px;
-  font-size: 500;
-  line-height: 21;
-  font-weight: 25;
+  font-size: 21px;
+  line-height: 25px;
+  font-weight: 500;
   color: #ffffff;
 }
 .footer p {
-  padding-top: 20px;
-  font-size: 400;
-  line-height: 13;
-  font-weight: 21;
+  margin: 0;
+  padding-bottom: 50px;
+  font-size: 13px;
+  line-height: 21px;
+  font-weight: 400;
   color: #ffffff;
 }/*# sourceMappingURL=common.css.map */
