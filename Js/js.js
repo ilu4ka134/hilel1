@@ -1,4 +1,4 @@
-const todosList = [];
+let todosList = [];
 const todoForm = document.getElementById("todoForm");
 const todoList = document.getElementById("todoList");
 
