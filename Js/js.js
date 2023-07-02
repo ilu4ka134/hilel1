@@ -1,35 +1,54 @@
-function createTodolist() {
-  var noteText = document.getElementById("todoInput").value;
-}
-if (todoInput !== "") {
-  var note = document.createElement("li");
-}
-var checkbox = document.createElement("input");
-checkbox.type = "checkbox";
-checkbox.addEventListener("change", function () {
-  if (this.checked) {
-    note.classList.add("completed");
-    deleteButton.disabled = false;
-  } else {
-    note.classList.remove("completed");
-    deleteButton.disabled = true;
+const todosList = [];
+const todoForm = document.getElementById("todoForm");
+const todoList = document.getElementById("todoList");
+
+const renderList = () => {
+  todoList.innerHTML = "";
+  let content = "";
+
+  todosList.map((todo) => {
+    const ul = `
+  <li>
+  <input type="checkbox" id="${todo.id}" onchange="updateStatus(${todo.id})" ${
+      todo.status ? "checked" : ""
+    }>
+  <span>${todo.text}</span>
+  <button onclick="deleteTodo(${todo.id})" ${
+      !todo.status ? "disabled" : ""
+    }>Delete</button>
+  </li>
+  `;
+    content += ul;
+  });
+
+  todoList.innerHTML = content;
+};
+
+const updateStatus = (id) => {
+  const todo = todosList.find((todo) => todo.id === id);
+  if (todo) {
+    todo.status = !todo.status;
+    renderList();
   }
+};
+
+const deleteTodo = (id) => {
+  todosList = todosList.filter((todo) => todo.id !== id);
+  renderList();
+};
+
+todoForm.addEventListener("submit", (e) => {
+  const field = document.getElementById("todoInput");
+  e.preventDefault();
+
+  const newTodo = {
+    id: Date.now(),
+    date: new Date(),
+    text: field.value,
+    status: false,
+  };
+
+  field.value = "";
+  todosList.push(newTodo);
+  renderList();
 });
-
-var noteTextElement = document.createElement("span");
-noteTextElement.innerText = todoInput;
-
-var deleteButton = document.createElement("button");
-deleteButton.innerText = "Видалити";
-deleteButton.disabled = true;
-deleteButton.addEventListener("click", function () {
-  note.remove();
-});
-
-note.appendChild(checkbox);
-note.appendChild(noteTextElement);
-note.appendChild(deleteButton);
-
-document.getElementById("todoList").appendChild(note);
-
-document.ge;
