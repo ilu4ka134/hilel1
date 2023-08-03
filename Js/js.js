@@ -55,19 +55,19 @@ function createContactCard(contact) {
   nameElement.className = "names";
   nameElement.textContent = name;
 
-  const emailElement = document.createElement("div");
-  emailElement.className = "contact-inform";
-  const emailLink = document.createElement("a");
-  emailLink.href = "mailto:" + email;
-  emailLink.textContent = email;
-  emailElement.appendChild(emailLink);
-
   const phoneElement = document.createElement("div");
   phoneElement.className = "contact-inform";
   const phoneLink = document.createElement("a");
   phoneLink.href = "tel:" + phone;
   phoneLink.textContent = phone;
   phoneElement.appendChild(phoneLink);
+
+  const emailElement = document.createElement("div");
+  emailElement.className = "contact-inform";
+  const emailLink = document.createElement("a");
+  emailLink.href = "mailto:" + email;
+  emailLink.textContent = email;
+  emailElement.appendChild(emailLink);
 
   const addressElement = document.createElement("div");
   addressElement.className = "contact-inform";
